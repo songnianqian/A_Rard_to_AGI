@@ -1,8 +1,6 @@
 # A Road to AGI
 **Self‑Evolving Intelligent Architecture Through Interconnected Learning Automata**
 
-> Converted from the author's V3 draft into a GitHub‑friendly README. See the original for full prose and context.
-
 ## Table of Contents
 - [Abstract](#abstract)
 - [Introduction](#introduction)
