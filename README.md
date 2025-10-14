@@ -1,4 +1,4 @@
-# A Road to AGI
+# A Road to Artificial General Intelligence (AGI)
 **Self‑Evolving Intelligent Architecture Through Interconnected Learning Automata**
 
 ## Table of Contents
