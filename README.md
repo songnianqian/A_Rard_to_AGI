@@ -116,6 +116,7 @@ Phase 2 - Evolutionary Layer (GA) for LLM & Chatbot
    - A reproducible GA framework ready to evolve additional modules later.
 
 Phase 3 - GA + GD Hybrid for Transformer Design
+
 Use Genetic Algorithms (GA) to explore architecture-level parameters—number of layers, embedding size, head layout—while Gradient Descent (GD) trains the weights inside each candidate.
 GA handles discrete, non-differentiable choices; GD handles continuous learning.
 1. Core ideas
