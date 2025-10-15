@@ -85,7 +85,7 @@ This stage will validate the feasibility of autonomous evolution and establish t
 Phase 2 - Evolutionary Layer (GA) for LLM & Chatbot
 
 - Concept
-- - Introduce Genetic-Algorithm (GA) style evolution into existing LLM or chatbot systems.
+> > Introduce Genetic-Algorithm (GA) style evolution into existing LLM or chatbot systems.
 Instead of retraining full models, we evolve modular behaviors and parameters — letting the system gradually self-optimize through variation and selection.
 ⚙️ What Evolves
 Routing / Head Selection — choose among LM-head variants or routing rules.
