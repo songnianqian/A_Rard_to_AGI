@@ -97,8 +97,8 @@ Other phases — such as large-scale population dynamics, cross-domain coordinat
 ## Citation
 Our early work at the Los Alamos National Laboratory, Center for Nonlinear Studies, explored the use of learning automata and genetic algorithms to stabilize and balance an inverted double pendulum — a classic benchmark of nonlinear control. These experiments demonstrated that adaptive systems could evolve complex coordination strategies without explicit programming, providing early empirical evidence that self-evolving learning automata can achieve stable, goal-directed behavior. This prior work forms the historical foundation for the present AGI framework.
 
-- S. Qian, Y.C. Lee, et al., 1990, Adaptive stochastic cellular automata: Applications
 - Y.C. Lee,  S. Qian, et al., 1990, Adaptive stochastic cellular automata: Theory 
+- S. Qian, Y.C. Lee, et al., 1990, Adaptive stochastic cellular automata: Applications
 
 ## License
 © 2025 Songnian Qian. All rights reserved. (Update with your chosen open‑source license if applicable.)
