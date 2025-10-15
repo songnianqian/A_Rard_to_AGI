@@ -53,6 +53,9 @@ The system mirrors **evolutionary principles**—variation, inheritance, selecti
 - Networks are **structurally alive**, capable of reconnecting and reorganizing (akin to neural plasticity).  
 - Knowledge is **passed forward** as older automata give way to improved descendants, avoiding stagnation.
 
+- Progressive Training and Elemental Interagency
+The development of intelligence within this system follows a progressive path similar to human learning. Early training begins with elemental automata—simple agents that master fundamental interactions and coordination principles. These automata learn limited behaviors within controlled environments, building the foundations of perception, reasoning, and communication. More complex automata emerge through aggregation and merging, inheriting the learned structures of simpler agents while expanding their capacity for abstraction and control. Just as humans learn one concept or skill at a time before integrating them into higher reasoning, the system’s intelligence evolves hierarchically — from elemental interagency toward composite cognition.
+
 ## Future Directions and Challenges
 - **Goal‑Directed Learning** — Can evolution alone discover reasoning/abstraction, or do we need explicit modules? Ensuring cooperation and convergence to **beneficial goals** is key.  
 - **Compute Scale** — Open‑ended evolution may require large populations; **AI‑guided mutation** and human oversight can make search far more efficient than random exploration.  
@@ -64,6 +67,22 @@ Ultimately, only systematic experimentation will reveal requirements and limits.
 This is a **testable path**: combine capable neural models, **genetic algorithms**, and **massive parallel infrastructure** with **real‑world fitness functions**. Whether it achieves AGI or maps its limits, the work will illuminate how intelligence evolves—and how to harness those dynamics in silicon.
 
 > Evolution worked once. It’s worth discovering if it can work again.
+>
+> Development Phases
+
+To transform this concept into a practical AGI system, development should proceed in structured phases, starting small and expanding through experimentation.
+
+Phase 1 – Foundation: Toy Automata Creation
+The initial phase focuses on creating a diverse set of toy automata — simple, self-contained agents generated and evolved through genetic algorithms.
+These automata will explore basic principles of adaptation, communication, and self-improvement under controlled conditions.
+Through iterative trials, the system can progress from very simple behaviors (such as input–output pattern recognition or local cooperation) to more complex adaptive and reasoning tasks.
+This stage will validate the feasibility of autonomous evolution and establish the framework for continuous creation, mutation, and selection.
+
+Phase 2 – Applied Prototypes and Real-World Cases
+Once the foundational mechanisms are proven, the next step is to apply the architecture to selected real-world domains.
+Candidate domains may include autonomous navigation, adaptive robotics, medical diagnostics, or intelligent assistants — fields where feedback and environmental fitness can be clearly measured.
+The goal is to demonstrate that evolved automata can cooperate, learn from feedback, and deliver measurable improvement without manual retraining.
+Other phases — such as large-scale population dynamics, cross-domain coordination, and distributed ecosystem integration — can be explored after these initial successes.
 
 ## How to Use This Repo
 - **/docs** — Extended notes, diagrams, and design discussion (planned).  
