@@ -11,6 +11,7 @@
 - [Progressive Training and Elemental Interagency](#progressive-Training-and-elemental-interagency)
 - [Future Directions and Challenges](#future-directions-and-challenges)
 - [Conclusion](#conclusion)
+- [Development Phases](#development-phases)
 - [How to Use This Repo](#how-to-use-this-repo)
 - [Citation](#citation)
 - [License](#license)
@@ -68,8 +69,8 @@ Ultimately, only systematic experimentation will reveal requirements and limits.
 This is a **testable path**: combine capable neural models, **genetic algorithms**, and **massive parallel infrastructure** with **real‑world fitness functions**. Whether it achieves AGI or maps its limits, the work will illuminate how intelligence evolves—and how to harness those dynamics in silicon.
 
 > Evolution worked once. It’s worth discovering if it can work again.
->
-> Development Phases
+
+##Development Phases
 
 To transform this concept into a practical AGI system, development should proceed in structured phases, starting small and expanding through experimentation.
 
