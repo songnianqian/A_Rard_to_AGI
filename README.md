@@ -82,13 +82,7 @@ These automata will explore basic principles of adaptation, communication, and s
 Through iterative trials, the system can progress from very simple behaviors (such as input–output pattern recognition or local cooperation) to more complex adaptive and reasoning tasks.
 This stage will validate the feasibility of autonomous evolution and establish the framework for continuous creation, mutation, and selection.
 
-Phase 2 – Applied Prototypes and Real-World Cases
-Once the foundational mechanisms are proven, the next step is to apply the architecture to selected real-world domains.
-Candidate domains may include autonomous navigation, adaptive robotics, medical diagnostics, or intelligent assistants — fields where feedback and environmental fitness can be clearly measured.
-The goal is to demonstrate that evolved automata can cooperate, learn from feedback, and deliver measurable improvement without manual retraining.
-Other phases — such as large-scale population dynamics, cross-domain coordination, and distributed ecosystem integration — can be explored after these initial successes.
-
-Phase 3 - Evolutionary Layer (GA) for LLM & Chatbot
+Phase 2 - Evolutionary Layer (GA) for LLM & Chatbot
 
 🧠 Concept
 Introduce Genetic-Algorithm (GA) style evolution into existing LLM or chatbot systems.
@@ -125,6 +119,12 @@ Prefer measurable, interpretable improvements over random drift.
 A stable champion configuration that outperforms the baseline on both quality and latency.
 Documented generation history showing steady, evolutionary gains.
 A reproducible GA framework ready to evolve additional modules later.
+
+Phase 3 – Applied Prototypes and Real-World Cases
+Once the foundational mechanisms are proven, the next step is to apply the architecture to selected real-world domains.
+Candidate domains may include autonomous navigation, adaptive robotics, medical diagnostics, or intelligent assistants — fields where feedback and environmental fitness can be clearly measured.
+The goal is to demonstrate that evolved automata can cooperate, learn from feedback, and deliver measurable improvement without manual retraining.
+Other phases — such as large-scale population dynamics, cross-domain coordination, and distributed ecosystem integration — can be explored after these initial successes.
 
 ## How to Use This Repo
 - **/docs** — Extended notes, diagrams, and design discussion (planned).  
