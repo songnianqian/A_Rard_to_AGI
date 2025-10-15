@@ -83,17 +83,16 @@ Through iterative trials, the system can progress from very simple behaviors (su
 This stage will validate the feasibility of autonomous evolution and establish the framework for continuous creation, mutation, and selection.
 
 Phase 2 - Evolutionary Layer (GA) for LLM & Chatbot
-
-- Concept
-&nbsp;&nbsp;Introduce Genetic-Algorithm (GA) style evolution into existing LLM or chatbot systems.
-Instead of retraining full models, we evolve modular behaviors and parameters — letting the system gradually self-optimize through variation and selection.
-⚙️ What Evolves
-Routing / Head Selection — choose among LM-head variants or routing rules.
-Decoding Policies — top-p, temperature, and repetition penalties.
-Verifier & Tool Thresholds — adjust when external lookup or rewrite triggers.
-Prompt Programs — evolve system prompts or tool-use templates.
-Memory / Recall Policy — tune how long and how much conversation context is stored.
-Retrieval Settings — chunk size, retrieval depth, citation formatting.
+1. Concept
+   - Introduce Genetic-Algorithm (GA) style evolution into existing LLM or chatbot systems.
+   - Instead of retraining full models, we evolve modular behaviors and parameters — letting the system gradually self-optimize through variation and selection.
+2. What Evolves
+   - Routing / Head Selection — choose among LM-head variants or routing rules.
+   - Decoding Policies — top-p, temperature, and repetition penalties.
+   - Verifier & Tool Thresholds — adjust when external lookup or rewrite triggers.
+   - Prompt Programs — evolve system prompts or tool-use templates.
+   - Memory / Recall Policy — tune how long and how much conversation context is stored.
+   - Retrieval Settings — chunk size, retrieval depth, citation formatting.
 
 🧩 Evolution Loop
 Generate Variants → randomly mutate a small set of configuration values.
