@@ -88,6 +88,34 @@ Candidate domains may include autonomous navigation, adaptive robotics, medical 
 The goal is to demonstrate that evolved automata can cooperate, learn from feedback, and deliver measurable improvement without manual retraining.
 Other phases — such as large-scale population dynamics, cross-domain coordination, and distributed ecosystem integration — can be explored after these initial successes.
 
+Phase 3 - Evolutionary Layer (GA) for LLM & Chatbot
+Idea (why):
+Borrow evolution’s “variation → selection → inheritance” to continually improve an existing LLM/chatbot without rebuilding it. We don’t evolve full weights; we evolve small, swappable choices around the model and keep winners.
+What evolves (units of variation):
+Routing/heads choices: which LM-head variant (or routing rule) to use.
+Micro-policies: decoding params (top-p, temperature, penalties), verifier thresholds, tool-use triggers.
+Prompt programs: compact system prompts & tool-call templates.
+Memory policy: how aggressively to store/recall session facts.
+RAG knobs: retrieval depth, chunk size, cite style.
+Fitness (selection signals):
+Quality on a small eval set (factuality, answer usefulness).
+Efficiency (latency, tokens/sec).
+Safety (refusal accuracy on disallowed prompts).
+Stability (no regressions across seeds).
+Loop (how it runs conceptually):
+Generate a small population of variants (mutate a few knobs).
+Evaluate on a fixed mini-benchmark (quality + speed + safety).
+Select top performers; recombine/mutate their settings.
+Adopt the current champion as the default, archive others.
+Repeat on a regular cadence (e.g., weekly).
+Guardrails:
+Keep changes modular & reversible (feature flags).
+Log every variant’s config + scores (transparent lineage).
+Cap population size to stay compute-light.
+Exit criteria (what “done” means):
+A stable champion config that beats baseline on quality and latency.
+A simple record of “generations” showing steady, evolutionary gains.
+
 ## How to Use This Repo
 - **/docs** — Extended notes, diagrams, and design discussion (planned).  
 - **/prototypes** — Reference implementations of automata, GA loops, and messaging (planned).  
