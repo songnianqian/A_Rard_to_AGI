@@ -115,7 +115,22 @@ Phase 2 - Evolutionary Layer (GA) for LLM & Chatbot
    - Documented generation history showing steady, evolutionary gains.
    - A reproducible GA framework ready to evolve additional modules later.
 
-Phase 3 – Applied Prototypes and Real-World Cases
+Phase 3 - GA + GD Hybrid for Transformer Design
+Use Genetic Algorithms (GA) to explore architecture-level parameters—number of layers, embedding size, head layout—while Gradient Descent (GD) trains the weights inside each candidate.
+GA handles discrete, non-differentiable choices; GD handles continuous learning.
+1. Core ideas
+   - Evolve: {layers, width, attention heads, FFN ratio, activation type}
+   - Train each variant briefly → measure fitness (PPL / latency / accuracy)
+   - Select top designs → mutate + recombine → next generation
+   - Keep a small champion lineage (self-optimizing blueprint)
+2. Working precedents
+   - Google AutoML / NASNet – evolved CNN architectures
+   - DeepMind Population-Based Training (PBT) – GA + SGD hyperparameter evolution
+   - EvoLLM (2023) – GA + weight inheritance for small Transformers
+3. GA searches the architecture space,
+   - GD learns within it — together forming an evolutionary path toward self-optimizing LLMs.
+
+Phase 4 – Applied Prototypes and Real-World Cases
 Once the foundational mechanisms are proven, the next step is to apply the architecture to selected real-world domains.
 Candidate domains may include autonomous navigation, adaptive robotics, medical diagnostics, or intelligent assistants — fields where feedback and environmental fitness can be clearly measured.
 The goal is to demonstrate that evolved automata can cooperate, learn from feedback, and deliver measurable improvement without manual retraining.
