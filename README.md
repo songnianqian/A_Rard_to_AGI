@@ -93,31 +93,27 @@ Phase 2 - Evolutionary Layer (GA) for LLM & Chatbot
    - Prompt Programs — evolve system prompts or tool-use templates.
    - Memory / Recall Policy — tune how long and how much conversation context is stored.
    - Retrieval Settings — chunk size, retrieval depth, citation formatting.
-
-🧩 Evolution Loop
-Generate Variants → randomly mutate a small set of configuration values.
-Evaluate Fitness → run on fixed mini-benchmarks measuring quality, speed, and safety.
-Select Top Performers → keep high-fitness variants.
-Recombine / Mutate → mix settings and explore new candidates.
-Adopt Champion → deploy the best configuration, archive lineage.
-Repeat Periodically → continuous evolution (e.g., weekly or per-release).
-
-🧮 Fitness Signals
-Quality: factual accuracy, relevance, fluency.
-Efficiency: latency, throughput, memory usage.
-Safety: refusal precision and alignment score.
-Stability: no regressions across seeds or datasets.
-
-🧱 Principles & Guardrails
-Keep each mutation modular and reversible (feature-flag style).
-Maintain full lineage logs for transparency.
-Limit population size and evaluation cost to stay lightweight.
-Prefer measurable, interpretable improvements over random drift.
-
-✅ Outcome Definition
-A stable champion configuration that outperforms the baseline on both quality and latency.
-Documented generation history showing steady, evolutionary gains.
-A reproducible GA framework ready to evolve additional modules later.
+3. Evolution Loop
+   - Generate Variants → randomly mutate a small set of configuration values.
+   - Evaluate Fitness → run on fixed mini-benchmarks measuring quality, speed, and safety.
+   - Select Top Performers → keep high-fitness variants.
+   - Recombine / Mutate → mix settings and explore new candidates.
+   - Adopt Champion → deploy the best configuration, archive lineage.
+   - Repeat Periodically → continuous evolution (e.g., weekly or per-release).
+4. Fitness Signals
+   - Quality: factual accuracy, relevance, fluency.
+   - Efficiency: latency, throughput, memory usage.
+   - Safety: refusal precision and alignment score.
+   - Stability: no regressions across seeds or datasets.
+5. Principles & Guardrails
+   - Keep each mutation modular and reversible (feature-flag style).
+   - Maintain full lineage logs for transparency.
+   - Limit population size and evaluation cost to stay lightweight.
+   - Prefer measurable, interpretable improvements over random drift.
+6. Outcome Definition
+   - A stable champion configuration that outperforms the baseline on both quality and latency.
+   - Documented generation history showing steady, evolutionary gains.
+   - A reproducible GA framework ready to evolve additional modules later.
 
 Phase 3 – Applied Prototypes and Real-World Cases
 Once the foundational mechanisms are proven, the next step is to apply the architecture to selected real-world domains.
