@@ -93,16 +93,6 @@ Other phases — such as large-scale population dynamics, cross-domain coordinat
 - **/prototypes** — Reference implementations of automata, GA loops, and messaging (planned).  
 - **/experiments** — Scripts for population training, evaluation harnesses, and metrics (planned).  
 
-### Quickstart (placeholder)
-```bash
-# clone and set up
-git clone https://github.com/yourname/road-to-agi.git
-cd road-to-agi
-
-# create a virtual env, install deps (to be added)
-# python -m venv .venv && source .venv/bin/activate
-# pip install -r requirements.txt
-```
 
 ## Citation
 Our early work at the Los Alamos National Laboratory, Center for Nonlinear Studies, explored the use of learning automata and genetic algorithms to stabilize and balance an inverted double pendulum — a classic benchmark of nonlinear control. These experiments demonstrated that adaptive systems could evolve complex coordination strategies without explicit programming, providing early empirical evidence that self-evolving learning automata can achieve stable, goal-directed behavior. This prior work forms the historical foundation for the present AGI framework.
