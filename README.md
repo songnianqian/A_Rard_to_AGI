@@ -53,7 +53,7 @@ The system mirrors **evolutionary principles**—variation, inheritance, selecti
 - Networks are **structurally alive**, capable of reconnecting and reorganizing (akin to neural plasticity).  
 - Knowledge is **passed forward** as older automata give way to improved descendants, avoiding stagnation.
 
-- Progressive Training and Elemental Interagency
+## Progressive Training and Elemental Interagency
 The development of intelligence within this system follows a progressive path similar to human learning. Early training begins with elemental automata—simple agents that master fundamental interactions and coordination principles. These automata learn limited behaviors within controlled environments, building the foundations of perception, reasoning, and communication. More complex automata emerge through aggregation and merging, inheriting the learned structures of simpler agents while expanding their capacity for abstraction and control. Just as humans learn one concept or skill at a time before integrating them into higher reasoning, the system’s intelligence evolves hierarchically — from elemental interagency toward composite cognition.
 
 ## Future Directions and Challenges
