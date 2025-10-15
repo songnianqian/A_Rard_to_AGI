@@ -90,64 +90,35 @@ Other phases — such as large-scale population dynamics, cross-domain coordinat
 
 Phase 3 - Evolutionary Layer (GA) for LLM & Chatbot
 🧠 Concept
-
 Introduce Genetic-Algorithm (GA) style evolution into existing LLM or chatbot systems.
 Instead of retraining full models, we evolve modular behaviors and parameters — letting the system gradually self-optimize through variation and selection.
-
 ⚙️ What Evolves
-
 Routing / Head Selection — choose among LM-head variants or routing rules.
-
 Decoding Policies — top-p, temperature, and repetition penalties.
-
 Verifier & Tool Thresholds — adjust when external lookup or rewrite triggers.
-
 Prompt Programs — evolve system prompts or tool-use templates.
-
 Memory / Recall Policy — tune how long and how much conversation context is stored.
-
 Retrieval Settings — chunk size, retrieval depth, citation formatting.
-
 🧩 Evolution Loop
-
 Generate Variants → randomly mutate a small set of configuration values.
-
 Evaluate Fitness → run on fixed mini-benchmarks measuring quality, speed, and safety.
-
 Select Top Performers → keep high-fitness variants.
-
 Recombine / Mutate → mix settings and explore new candidates.
-
 Adopt Champion → deploy the best configuration, archive lineage.
-
 Repeat Periodically → continuous evolution (e.g., weekly or per-release).
-
 🧮 Fitness Signals
-
 Quality: factual accuracy, relevance, fluency.
-
 Efficiency: latency, throughput, memory usage.
-
 Safety: refusal precision and alignment score.
-
 Stability: no regressions across seeds or datasets.
-
 🧱 Principles & Guardrails
-
 Keep each mutation modular and reversible (feature-flag style).
-
 Maintain full lineage logs for transparency.
-
 Limit population size and evaluation cost to stay lightweight.
-
 Prefer measurable, interpretable improvements over random drift.
-
 ✅ Outcome Definition
-
 A stable champion configuration that outperforms the baseline on both quality and latency.
-
 Documented generation history showing steady, evolutionary gains.
-
 A reproducible GA framework ready to evolve additional modules later.
 
 ## How to Use This Repo
