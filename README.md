@@ -103,16 +103,10 @@ cd road-to-agi
 ```
 
 ## Citation
-If you use or discuss this work, please cite the original draft and this repository.
+Our early work at the Los Alamos National Laboratory, Center for Nonlinear Studies, explored the use of learning automata and genetic algorithms to stabilize and balance an inverted double pendulum — a classic benchmark of nonlinear control. These experiments demonstrated that adaptive systems could evolve complex coordination strategies without explicit programming, providing early empirical evidence that self-evolving learning automata can achieve stable, goal-directed behavior. This prior work forms the historical foundation for the present AGI framework.
 
-```
-@misc{road_to_agi_automata,
-  title  = {A Road to AGI: Self-Evolving Intelligent Architecture Through Interconnected Learning Automata},
-  author = {Qian, Songnian},
-  year   = {2025},
-  note   = {GitHub README conversion of the author's V3 draft}
-}
-```
+- S. Qian, Y.C. Lee, et al., 1990, Adaptive stochastic cellular automata: Applications
+- Y.C. Lee,  S. Qian, et al., 1990, Adaptive stochastic cellular automata: Theory 
 
 ## License
 © 2025 Songnian Qian. All rights reserved. (Update with your chosen open‑source license if applicable.)
