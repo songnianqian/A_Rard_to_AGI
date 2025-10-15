@@ -70,7 +70,7 @@ This is a **testable path**: combine capable neural models, **genetic algorithms
 
 > Evolution worked once. It’s worth discovering if it can work again.
 
-##Development Phases
+## Development Phases
 
 To transform this concept into a practical AGI system, development should proceed in structured phases, starting small and expanding through experimentation.
 
