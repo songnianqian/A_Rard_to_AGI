@@ -109,6 +109,7 @@ Phase 2 - Evolutionary Layer (GA) for LLM & Chatbot
    - Efficiency: latency, throughput, memory usage.
    - Safety: refusal precision and alignment score.
    - Stability: no regressions across seeds or datasets.
+   - Size: preference for smaller architectures that maintain or improve performance — GA favors compact, efficient designs.
 5. Principles & Guardrails
    - Keep each mutation modular and reversible (feature-flag style).
    - Maintain full lineage logs for transparency.
