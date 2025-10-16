@@ -55,10 +55,14 @@ The system mirrors **evolutionary principles**—variation, inheritance, selecti
 - Networks are **structurally alive**, capable of reconnecting and reorganizing (akin to neural plasticity).  
 - Knowledge is **passed forward** as older automata give way to improved descendants, avoiding stagnation.
 
-## Progressive Training and Elemental Interagency
-The development of intelligence within this system follows a progressive path similar to human learning. Early training begins with elemental automata — simple agents that master fundamental interactions and coordination principles. These automata learn limited behaviors within controlled environments, building the foundations of perception, reasoning, and communication. More complex automata emerge through aggregation and merging, inheriting the learned structures of simpler agents while expanding their capacity for abstraction and control.
-Because genetic algorithms typically require very large populations to achieve meaningful evolution, the Elemental Interagency approach makes this process computationally feasible. By training small, specialized automata first, and allowing them to combine hierarchically, we simulate large-scale evolutionary diversity through modular growth rather than sheer population size.
-Just as humans learn one concept or skill at a time before integrating them into higher reasoning, the system’s intelligence evolves hierarchically — from elemental interagency toward composite cognition.
+## Progressive Training and Elemental Intelligence
+The development of intelligence within this system follows a progressive path similar to human learning.
+Early training begins with elemental automata — simple agents that master fundamental interactions and coordination principles.
+These automata learn limited behaviors within controlled environments, forming the foundations of perception, reasoning, and communication.
+More complex automata then emerge through aggregation and merging, inheriting the learned structures of simpler agents while expanding their capacity for abstraction and control.
+Because genetic algorithms typically require very large populations to achieve meaningful evolution, the Elemental Intelligence approach makes this process computationally feasible.
+By training small, specialized automata first and allowing them to combine hierarchically, we simulate large-scale evolutionary diversity through modular growth rather than sheer population size.
+Just as humans learn one concept or skill at a time before integrating them into higher reasoning, the system’s intelligence evolves hierarchically — from elemental intelligence toward composite cognition.
 
 ## Future Directions and Challenges
 - **Goal‑Directed Learning** — Can evolution alone discover reasoning/abstraction, or do we need explicit modules? Ensuring cooperation and convergence to **beneficial goals** is key.  
