@@ -8,7 +8,7 @@
 - [Key Principles](#key-principles)
 - [System Architecture Overview](#system-architecture-overview)
 - [The Biological Blueprint for Evolving Intelligence](#the-biological-blueprint-for-evolving-intelligence)
-- [Progressive Training and Elemental Interagency](#progressive-Training-and-elemental-interagency)
+- [Progressive Training and Elemental Intelligence](#progressive-Training-and-elemental-intelligence)
 - [Future Directions and Challenges](#future-directions-and-challenges)
 - [Conclusion](#conclusion)
 - [Development Phases](#development-phases)
