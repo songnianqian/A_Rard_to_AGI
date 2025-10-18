@@ -75,6 +75,7 @@ Just as humans learn one concept or skill at a time before integrating them into
 Most importantly, it demonstrates that reasoning can be both designed and evolved—we provide the structural scaffold (committee architecture), and evolution discovers the optimal parameters, specialization strategies, and consensus mechanisms.
 This bridges the gap between pure emergence (hoping reasoning appears from scale alone) and pure engineering (hardcoding every reasoning rule). The committee learns to reason through exposure to data, improves through evolutionary pressure, and adapts through continuous feedback—exactly the properties needed for artificial general intelligence.
 As this reasoning engine evolves within the broader automata ecosystem, it will serve as the cognitive substrate enabling autonomous agents to deliberate, plan, and solve problems with human-like flexibility and reliability.
+Details in project "Human-Like Committee Reasoning"
 
 ## Future Directions and Challenges
 - **Goal‑Directed Learning** — Can evolution alone discover reasoning/abstraction, or do we need explicit modules? Ensuring cooperation and convergence to **beneficial goals** is key.  
