@@ -74,6 +74,10 @@ Ultimately, only systematic experimentation will reveal requirements and limits.
 ## Conclusion
 This is a **testable path**: combine capable neural models, **genetic algorithms**, and **massive parallel infrastructure** with **real‑world fitness functions**. Whether it achieves AGI or maps its limits, the work will illuminate how intelligence evolves—and how to harness those dynamics in silicon.
 
+- We move beyond debating AGI to proposing an implementable architecture.
+- This is not a white paper; it is a multi-phase development roadmap.
+- The work provides a system-level blueprint for lifelong learning and robust deliberation, directly addressing the frozen nature of current foundation models.
+
 > Evolution worked once. It’s worth discovering if it can work again.
 
 ## Development Phases
